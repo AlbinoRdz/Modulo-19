@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded',function() {
    })
     
    let infoForm = document.querySelector(".form__inputs");
-   //console.log(infoForm);
+  
    infoForm.addEventListener('submit', (e) => {
     e.preventDefault();
     formUser = infoForm.querySelector(".form-name").value;
